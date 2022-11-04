@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&family=Roboto:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif, cursive;
+    font-style: italic;
+    color: #0f141e;
+    background-color: #d1d1d1;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-bottom: 10px;
+}
+
+a {
+    color: #686868;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 750px;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.info {
+    margin-bottom: 20px;
+}
+
+.info img, .info {
+    display: flex;
+}
+
+.info-text p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-right: 20px;
+    color: #686868;
+}
+
+.avatar {
+    border-radius: 50%;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    margin: 20px 20px 20px 0px;
+}
+
+.info h2 {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card {
+    padding: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card ol {
+    margin: 0;
+    padding: 0 0;
+}
+
+.card ol li {
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #686868;
+}
+
+.card .table{
+    width: 100%;
+}
+
+.table td {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.table th {
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-us h2 {
+    text-align: center;
+}
+
+.contact-data label {
+    display: block;
+    font-size: 14px;
+    color: #686868;
+}
+
+.contact-us > .contact-data {
+    margin-top: 40px;
+}
+
+.contact-row .contact-data {
+    display: inline-block;
+    margin-right: 20px;
+    width: calc(50%-20px);
+}
+
+.contact-row, .contact-data:last-child {
+    margin-right: 0px;
+}
+
+.contact-data input, .contact-us textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+
+.bg-azure {
+    background-color: azure;
+}
+
+.bg-beige {
+    background-color: beige;
+}
+
+.bg-lightPink {
+    background-color: #e0d1e4;
+}
+
+.btn {
+    background: #686868;
+    color: white;
+    border: none;
+    font-family: inherit;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.btn:hover {
+    opacity: 0.75;
+}
+
+.btn:active {
+    color: aqua;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.table td:nth-child(2), td:nth-child(3) {
+    color: #686868;
+}
+
+@media (max-width: 650px) {
+    .info img, .info {
+        display: block;
+        text-align: center;
+    }
+
+    .info p {
+        margin: 0px 16px;
+    }
+
+    .info img {
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+    }
+}
